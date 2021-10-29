@@ -2,7 +2,8 @@
 import firebase from 'firebase';
 import 'firebase/database'; 
 import 'firebase/storage';
-
+import 'firebase/firestore';
+import 'firebase/auth'; 
 const firebaseApp = firebase.initializeApp({
     apiKey: "AIzaSyDbRW9_F--MQdhOXZ6IUNfEBrcw92fZCsI",
   authDomain: "superchat-81638.firebaseapp.com",
