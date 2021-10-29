@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { db, auth } from '../firebase'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
 import Button from '@material-ui/core/Button';
 import Input from '@material-ui/core/Input';
 
