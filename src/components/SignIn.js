@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 function SignIn() {
    function signInWithGoogle() {
     const provider = new firebase.auth.GoogleAuthProvider()
-    auth.signInWithPopup(provider)
+    auth.signInWithPopup(provider) 
    }
     return (
       <div style={{ display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center' }}>
